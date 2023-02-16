@@ -1,0 +1,276 @@
+This data package been produced by and downloaded from the National Ecological Observatory Network (NEON). NEON is funded by the National Science Foundation (Awards 0653461, 0752017, 1029808, 1138160, 1246537, 1638695, 1638696, 1724433) and managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at https://www.neonscience.org/data-policy.
+
+
+
+DATA PRODUCT INFORMATION
+
+------------------------
+
+
+
+ID: NEON.DOM.SITE.DP3.30006.001
+
+
+
+Name: Spectrometer orthorectified surface directional reflectance - mosaic
+
+
+
+Description: Orthorectified Surface reflectance (0-1 unitless, scaled by 10,000) computed from the NEON Imaging Spectrometer (NIS) per pixel; data are orthorectified and output onto a fixed, uniform spatial grid using nearest-neighbor resampling (tbr). Level 1 flight lines over a given site are mosaicked into 1 km by 1 km tiles with a spatial resolution of 1m.
+
+
+
+NEON Science Team Supplier: Airborne Observation Platform
+
+
+
+Abstract: The NEON AOP surface directional reflectance data product is an orthorectified (UTM projection) hyperspectral raster product. It is distributed in an open HDF5 format including all 426 bands from the NEON Imaging Spectrometer. It is a calibrated and atmospherically corrected product distributed as scaled reflectance. It includes many QA and ancillary rasters used as inputs to ATCOR for atmospheric correction as well as outputs from ATCOR for diagnostic purposes. L3 reflectance is distributed in 1 km by 1 km tiles with one HDF5 file per tile including the reflectance data and all metadata and ancillary data. The mosaic is created using the most-nadir pixels from the flight lines observed with the least cloud cover. Reflectance tiles are used to to calculate Level 3 Vegetation Indices, Water Indices, LAI, and fPAR. 
+
+Latency:
+AOP data will be available 60 days after the final collection day at a site.
+
+
+
+Brief Design Description: The Level 3 orthorectified surface directional reflectance data product is distributed in in an open HDF5 data format in UTM projection and ITRF00 datum. Each file contains all 426 reflectance bands for a single 1 km by 1 km tile as well as many QA and ancillary rasters and datasets both used in and produced by ATCOR reflectance processing as well as a map of from which flight line each mosaic pixel is taken.
+
+
+
+Brief Study Area Description: NEON AOP data are planned for yearly collects at all NEON sites at 90% of maximum greenness or greater. Coverage is planned to include at least 95% of NIS Tower Airshed area as well as at least 80% of a minimum 10km x 10 km box around that. All acquisitions are subject to change due to weather conditions as well as program planning changes.
+
+
+
+Sensor(s): NEON Airborne Observation Platform (AOP) Imaging Spectrometer (NIS) - NASA/JPL AVIRIS-NG
+
+
+
+Keywords: hyperspectral imaging (HSI), HDF5, atmospherically corrected, mosaic, airborne, surface reflectance, spectrometer, remote sensing, aerial, directional reflectance, orthorectified, reflectance
+
+
+
+
+
+QUERY INFORMATION
+
+-----------------
+
+
+
+
+Site: ABBY
+
+Domain: D16
+
+
+
+
+
+DATA PACKAGE CONTENTS
+
+---------------------
+
+
+
+This folder contains the following documentation files:
+
+
+
+- This readme file: NEON.D16.ABBY.DP3.30006.001.readme.20220302T205717Z.txt
+
+- Other related documents, such as engineering specifications, field protocols and data processing documentation, are available. Please visit https://data.neonscience.org/data-products/DP3.30006.001 for more information.
+
+
+
+
+
+This folder also contains 114 data files:
+
+ABBY_2019071418_L1_spectrometer_processing.pdf
+NEON_D16_ABBY_DP3_551000_5061000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5064000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5062000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5068000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5063000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5071000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5065000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5062000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5074000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5061000_reflectance.h5
+NEON_D16_ABBY_DP3_549000_5073000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5066000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5062000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5064000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5073000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5068000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5071000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5065000_reflectance.h5
+2019_ABBY_3_2019071423_P3C1_L2_spectrometer_processing.pdf
+NEON_D16_ABBY_DP3_554000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5074000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5061000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5066000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5074000_reflectance.h5
+ABBY_2019071423_L1_spectrometer_processing.pdf
+NEON_D16_ABBY_DP3_551000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5060000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5064000_reflectance.h5
+NEON_D16_ABBY_DP3_549000_5071000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5061000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5066000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5059000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5064000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5060000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5064000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5066000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5060000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5074000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5062000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5060000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5068000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5071000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5063000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5074000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5066000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5061000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5064000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5062000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5071000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5068000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5063000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5065000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5062000_reflectance.h5
+NEON_D16_ABBY_DP3_549000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5061000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5066000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5062000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5064000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5069000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5073000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5063000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5071000_reflectance.h5
+2019_ABBY_3_ABBY_L3_spectrometer_processing.pdf
+NEON_D16_ABBY_DP3_554000_5073000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5060000_reflectance.h5
+2019_ABBY_3_2019071418_P3C1_L2_spectrometer_processing.pdf
+NEON_D16_ABBY_DP3_549000_5072000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5065000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5068000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5063000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5071000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5073000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5060000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_554000_5065000_reflectance.h5
+NEON_D16_ABBY_DP3_551000_5068000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5063000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5073000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5060000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_557000_5067000_reflectance.h5
+NEON_D16_ABBY_DP3_555000_5065000_reflectance.h5
+NEON_D16_ABBY_DP3_549000_5070000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5068000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5071000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5063000_reflectance.h5
+NEON_D16_ABBY_DP3_552000_5061000_reflectance.h5
+NEON_D16_ABBY_DP3_553000_5073000_reflectance.h5
+NEON_D16_ABBY_DP3_556000_5065000_reflectance.h5
+NEON_D16_ABBY_DP3_550000_5066000_reflectance.h5
+
+
+
+Basic download package definition: Includes the data product as a single orthorectified mosaic in an open HDF5 format. An expanded package is not available for this product.
+
+
+
+Expanded download package definition: 
+
+
+
+
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+NEON data files are named using a series of component abbreviations separated by periods. File naming conventions for NEON data files differ between NEON science teams. A file will have the same name whether it is accessed via NEON's data portal or API. Please visit https://www.neonscience.org/data-formats-conventions for a full description of the naming conventions.
+
+ISSUE LOG
+
+----------
+
+
+
+This log provides a list of issues that were identified during data collection or processing, prior to publication of this data package. For a more recent log, please visit this data product's detail page at https://data.neonscience.org/data-products/DP3.30006.001.
+
+
+
+Issue Date: 2022-01-14
+Issue: Error in trajectory timing signal caused errors in geolocation
+       Date Range: 2018-05-01 to 2018-05-31
+       Location(s) Affected: GUIL, GUAN, LAJA
+Resolution Date: 2022-01-14
+Resolution: Correction was applied to the timing signal and geolocation was updated
+
+Issue Date: 2022-01-14
+Issue: Elevations referenced in ellipsoidal heights caused errors in spectrometer geolocation ray-tracing
+       Date Range: 2018-07-01 to 2018-07-31
+       Location(s) Affected: WREF
+Resolution Date: 2022-01-14
+Resolution: Elevations were updated to orthometric heights via Geoid12A and geolocation was re-calculated
+
+Issue Date: 2022-01-15
+Issue: Error in spectrometer calibration caused a systematic bias in approximately 1.25% of pixels in the hyperspectral data cube
+       Date Range: 2021-05-01 to 2021-06-30
+       Location(s) Affected: TALL, DELA, LENO, ONAQ, REDB, CPER, STER, ARIK
+Resolution Date: 2021-08-15
+Resolution: Calibration parameters were corrected and data was reprocessed
+
+
+
+
+
+ADDITIONAL INFORMATION
+
+----------------------
+
+
+
+
+NEON DATA POLICY AND CITATION GUIDELINES
+
+----------------------------------------
+
+
+
+A citation statement is available in this data product's detail page at https://data.neonscience.org/data-products/DP3.30006.001. Please visit https://www.neonscience.org/data-policy for more information about NEON's data policy and citation guidelines.
+
+
+
+DATA QUALITY AND VERSIONING
+---------------------------
+
+NEON data are initially published with a status of Provisional, in which updates to data and/or processing algorithms will occur on an as-needed basis, and query reproducibility cannot be guaranteed. Once data are published as part of a Data Release, they are no longer provisional, and are associated with a stable DOI.
+
+To learn more about provisional versus released data, please visit https://www.neonscience.org/data-revisions-releases.
